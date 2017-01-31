@@ -1,0 +1,119 @@
+* {
+	box-sizing: border-box;
+}
+
+header {
+	background-color:#DDDDDD;
+	border: 2px solid #001f3f;
+	margin-bottom: 2%;
+}
+.navbar-brand {
+width: 100%;
+height: 100px;
+
+}
+.navbar-brand h1 {
+	text-align: left;
+}
+
+ button.navbar-toggle,  .icon-bar {
+	border: 1px solid #001f3f;
+}
+ button.navbar-toggle {
+	clear: both;
+	margin-top: -62px;
+}
+#collapsable-nav {
+	border-top: 1px solid #001f3f;
+	background-color:#DDDDDD;
+}
+
+#nav-list {
+	font-size: 1.2em;
+	text-align: center;
+
+}
+#nav-list a:hover {
+	background-color: #7FDBFF;
+	color: #001f3f;
+}
+
+#head-title h2{
+	text-align: center;
+}
+#head-title {
+	margin-bottom: 3%;
+}
+
+.row {
+	width: 100%;
+	float:left;
+
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	
+}
+
+#chicken-content, #beef-content, #sushi-content {
+	border: 1px solid #001f3f;
+	overflow: hidden;
+	background-color:#DDDDDD;
+	height: 650px;
+	padding: 20px 15px 0 15px;
+}
+
+
+#chicken-content h3, #beef-content h3, #sushi-content h3 {
+	text-align: center;
+	text-transform: capitalize;
+	margin-bottom: 10%;
+}
+
+#chicken-content a, #beef-content a, #sushi-content a {
+	text-decoration: none;
+}
+#chicken-content a:hover, #beef-content a:hover, #sushi-content a:hover {
+	color: #001f3f; 
+}
+
+@media (min-width: 993px) and (max-width: 1201px) {
+	#chicken-content, #beef-content, #sushi-content {
+		height: 770px;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+	#chicken-content, #beef-content {
+		height: 700px;
+	}
+		#sushi-content {
+		height: 400px;
+	}
+
+		#chicken-content h3, #beef-content h3, #sushi-content h3 {
+		margin-bottom: 5%;
+	}
+}
+
+@media (min-width: 456px) and (max-width: 768px) {
+	#chicken-content, #beef-content, #sushi-content {
+		height: 550px;
+	}
+	#chicken-content h3, #beef-content h3, #sushi-content h3 {
+		margin-bottom: 5%;
+	}
+}
+
+@media (max-width: 455px) {
+	#chicken-content, #beef-content, #sushi-content {
+		min-height: 700px;
+		height: auto;
+	}
+	#chicken-content h3, #beef-content h3, #sushi-content h3 {
+		margin-bottom: 5%;
+	}
+}
